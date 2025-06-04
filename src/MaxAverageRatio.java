@@ -35,12 +35,22 @@ public class MaxAverageRatio {
         return res;
     }
 
+    private int getget(Double dd) {
+
+        if ( dd.intValue() == 0) {
+            System.out.println("Hello");
+        }
+
+        return 0;
+    }
+
 
     public static void main(String[] args) throws IOException {
 
         MaxAverageRatio sen = new MaxAverageRatio();
         double r = sen.maxAverageRatio(new int[][]{{1,2},{3,5},{2,2}}, 2);
         System.out.println(r);
+        sen.getget(null);
         //r = sen.minLength("ACBBD");
         //System.out.println(r);
     }
